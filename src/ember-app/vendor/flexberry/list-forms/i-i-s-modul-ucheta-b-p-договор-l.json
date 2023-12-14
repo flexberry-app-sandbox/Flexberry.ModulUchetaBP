@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-modul-ucheta-b-p-договор-e",
+  "editForm": "i-i-s-modul-ucheta-b-p-договор-e",
+  "external": false,
+  "caption": "Договор",
+  "name": "IISModul_ucheta_BPДоговорL",
+  "className": "ДоговорL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-modul-ucheta-b-p-договор",
+      "modelProjection": "ДоговорL"
+    }
+  ]
+}

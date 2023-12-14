@@ -1,0 +1,9 @@
+﻿{
+  "nameSpace": "IIS.Modul_ucheta_BP",
+  "className": "Услуга",
+  "enumObjects": {
+    "ПомПровДок": "",
+    "ПомЗакрМес": "",
+    "РешУстнВопр": ""
+  }
+}

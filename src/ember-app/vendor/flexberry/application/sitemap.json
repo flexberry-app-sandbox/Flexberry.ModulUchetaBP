@@ -1,0 +1,80 @@
+﻿{
+  "applicationCaption": "Modul_ucheta_ BP",
+  "applicationTitle": "Modul_ucheta_ BP",
+  "items": [
+    {
+      "link": null,
+      "menuName": "справочники",
+      "caption": "Справочники",
+      "title": "Справочники",
+      "children": [
+        {
+          "link": "i-i-s-modul-ucheta-b-p-дир-отд-по-раб-с-кл-l",
+          "menuName": null,
+          "caption": "Дир отд по раб с кл",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-modul-ucheta-b-p-клиент-l",
+          "menuName": null,
+          "caption": "Клиент",
+          "title": "",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "документы",
+      "caption": "Документы",
+      "title": "Документы",
+      "children": [
+        {
+          "link": "i-i-s-modul-ucheta-b-p-расчет-ост-врем-l",
+          "menuName": null,
+          "caption": "Расчет ост врем",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-modul-ucheta-b-p-договор-l",
+          "menuName": null,
+          "caption": "Договор",
+          "title": "",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "прочее",
+      "caption": "Прочее",
+      "title": "Прочее",
+      "children": [
+        {
+          "link": "i-i-s-modul-ucheta-b-p-длительность-l",
+          "menuName": null,
+          "caption": "Длительность",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-modul-ucheta-b-p-затр-время-l",
+          "menuName": null,
+          "caption": "Затр время",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-modul-ucheta-b-p-услуги-l",
+          "menuName": null,
+          "caption": "Услуги",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-modul-ucheta-b-p-услуги-e",
+  "editForm": "i-i-s-modul-ucheta-b-p-услуги-e",
+  "external": false,
+  "caption": "Услуги",
+  "name": "IISModul_ucheta_BPУслугиL",
+  "className": "УслугиL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-modul-ucheta-b-p-услуги",
+      "modelProjection": "УслугиL"
+    }
+  ]
+}

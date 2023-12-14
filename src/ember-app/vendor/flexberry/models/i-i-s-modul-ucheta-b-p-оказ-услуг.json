@@ -1,0 +1,77 @@
+﻿{
+  "name": "IISModul_ucheta_BPОказУслуг",
+  "modelName": "i-i-s-modul-ucheta-b-p-оказ-услуг",
+  "className": "ОказУслуг",
+  "nameSpace": "IIS.Modul_ucheta_BP",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "времяКонсульт",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "дата",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "договор",
+      "relatedTo": "i-i-s-modul-ucheta-b-p-договор",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "услуги",
+      "relatedTo": "i-i-s-modul-ucheta-b-p-услуги",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "расчетОстВрем",
+      "relatedTo": "i-i-s-modul-ucheta-b-p-расчет-ост-врем",
+      "inverse": "оказУсл"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ОказУслугE",
+      "modelName": "i-i-s-modul-ucheta-b-p-оказ-услуг",
+      "attrs": [
+        {
+          "name": "дата",
+          "caption": "Дата",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "времяКонсульт",
+          "caption": "Время консультаций",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}
